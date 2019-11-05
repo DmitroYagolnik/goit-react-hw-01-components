@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "clsx": "^1.0.4",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
@@ -46,5 +47,5 @@
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2"
   },
-  "homepage": "https://github.com/DmitroYagolnik/goit-react-hw-01-components"
+  "homepage": " https://dmitroyagolnik.github.io/goit-react-hw-01-components"
 }
