@@ -1,23 +1,16 @@
 import React from 'react';
 
 import Profile from './Profile/Profile';
-import Stats from './Stats/Stats';
+import Statistics from './Statistics/Statistics';
 import FriendList from './FriendList/FriendList';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 import './style.css';
 
 import user from './Profile/user.json';
+import statisticalData from './Statistics/statistical-data.json';
 import friends from './FriendList/friends.json';
 import transactions from './TransactionHistory/transactions.json';
-
-const stats = [
-  { id: 'id-1', label: '.docx', percentage: 22 },
-  { id: 'id-2', label: '.pdf', percentage: 4 },
-  { id: 'id-3', label: '.mp3', percentage: 17 },
-  { id: 'id-4', label: '.psd', percentage: 47 },
-  { id: 'id-5', label: '.pdf', percentage: 10 },
-];
 
 const App = () => (
   <>
@@ -30,7 +23,7 @@ const App = () => (
       views={user.stats.views}
       likes={user.stats.likes}
     />
-    <Stats title="Upload stats" stats={stats} />
+    <Statistics title="Upload stats" stats={statisticalData} />
     <FriendList friends={friends} />
     <TransactionHistory items={transactions} />
   </>
