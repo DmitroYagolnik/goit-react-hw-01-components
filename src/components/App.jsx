@@ -19,9 +19,7 @@ const App = () => (
       name={user.name}
       tag={user.tag}
       location={user.location}
-      followers={user.stats.followers}
-      views={user.stats.views}
-      likes={user.stats.likes}
+      stats={user.stats}
     />
     <Statistics title="Upload stats" stats={statisticalData} />
     <FriendList friends={friends} />

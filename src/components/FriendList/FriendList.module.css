@@ -13,34 +13,3 @@
   display: flex;
   align-items: center;
 }
-
-.status {
-  display: block;
-  margin: 0 16px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-}
-
-.statusIsOnline {
-  composes: status;
-  background-color: #339966;
-}
-
-.statusIsOffline {
-  composes: status;
-  background-color: #ff6666;
-}
-
-.avatar {
-  width: 96px;
-  height: 96px;
-  border-radius: 4px;
-}
-
-.name {
-  margin-left: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-}
